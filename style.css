@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nurito' sans-serif;
+}
+
+.cont{
+    /* display: flex; */
+    gap: 30%;
+    margin-top: 5%;
+}
+
+.card1{
+    width: 450px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: auto;
+    overflow-x: hidden;
+    position: relative;
+    padding: 20px;
+
+}
+
+ img{
+  width: 50px;
+}
+
+/* .texts{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: black;
+    color: white;
+} */
+
+input{
+    width: 60%;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    border: 1px solid;
+    padding-left: 40px;
+    
+    
+}
+
+
+
+label{
+    cursor: pointer;
+    
+}
+
+.fa-solid{
+   position: absolute;
+   left: .5rem;
+   top: 2rem;
+}
+
+form{
+    position: relative;
+}
+
+
+    /* input::placeholder{
+        padding-left: 3rem;
+    } */
+
+.files{
+    display: none;  
+}
+
+
+button{
+    height: 60px;
+    /* width: 25; */
+    margin-top: -.3rem;
+}
+
+.card2{
+     width: 450px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: auto;
+    overflow-x: hidden;
+  padding: 20px;
+  
+}
+
+
+.inputcard, .inputcard2{
+   
+    width: 450px;
+    height: 80px;
+    /* position: absolute; */
+    /* top: 63.4%; */
+    border-radius: 5px 5px 10px 10px ;
+    border: 1px solid black;
+    position: relative;
+}
